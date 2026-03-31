@@ -18,7 +18,7 @@ if exist simulator.exe (
 
 REM 
 REM 
-g++ main.cpp sjf_non_preemptive.cpp fcfscomplete.cpp scheduler_common.cpp priority_non_preemptive.cpp srtf_preemptive.cpp round_robin.cpp comparison_tool.cpp splash_screen.cpp -o simulator.exe -std=c++11 -finput-charset=UTF-8
+g++ main.cpp sjf_non_preemptive.cpp fcfs-non-preemptive.cpp scheduler_common.cpp priority_non_preemptive.cpp srtf_preemptive.cpp round_robin.cpp comparison_tool.cpp -o simulator.exe -std=c++11 -finput-charset=UTF-8
 
 REM
 if %errorlevel% equ 0 (
