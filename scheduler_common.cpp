@@ -7,6 +7,10 @@
     void clearScreen() {
         system("cls");
     }
+#else
+    void clearScreen() {
+        std::cout << "\033[2J\033[1;1H";
+    }
 #endif
 
 // Input Function:
